@@ -21,7 +21,7 @@ def index():
                 <body>
 
                     <h1> Upload a file </h1>
-                    <form action = "http://localhost:8000/uploader" method = "POST" 
+                    <form action = "https://pyweb-vpgt.onrender.com" method = "POST" 
                     enctype = "multipart/form-data">
                     <input type = "file" name = "file" />
                     <input type = "submit"/>
